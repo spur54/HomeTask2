@@ -105,10 +105,7 @@ public class HomeTask2 {
      * @return сумма
      */
     public static long sum(int n) {
-        if (n <= 0) {
-            return 0;
-        }
-        return n + sum(--n);
+        return 0;
     }
 
     /**
@@ -121,10 +118,5 @@ public class HomeTask2 {
     public static int product(int first, int second) {
         return -1;
     }
-
-    public static void main(String[] args) {
-        System.out.println(sum(4));
-    }
-
 
 }
