@@ -142,15 +142,4 @@ public class HomeTaskTest2 {
         Assert.assertEquals(HomeTask2.product(-2, -4), 8);
     }
 
-
-//    @Test
-//    public void testSum() {
-//        Assert.assertEquals(HomeTask2.sum(4), 10);
-//    }
-//
-//    public void testSimple() {
-//        HomeTask2.getSimple(30);
-//    }
-
-
 }
